@@ -1,0 +1,25 @@
+/* GLOBAL RESETS */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* CUSTOM CLASSES */
+
+header {
+    color: #ebebeb;
+    background-color: blue;
+}
