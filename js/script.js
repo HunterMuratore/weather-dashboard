@@ -64,33 +64,8 @@ function getWeatherData(city) {
     ]
     
     console.log(forecastData);
-    // addWeatherData(weatherData);
     });
 }
-
-// function addWeatherData(weatherData) {
-//     // Create a weather-data div 
-//     var weatherDataDiv = $('<div>').addClass('weather-data bg-yellow tile is-child box');
-//     // Construct the inner HTML of weather-data div
-//     var iconUrl = `https://openweathermap.org/img/w/${weatherData.iconCode}.png`;
-//     var weatherDataInfo = `
-//       <h2 class="title">Weather at this trail</h2>
-//       <div class="columns">
-//         <div class="column mx-4">
-//           <p>Temperature: ${weatherData.temperature}°F</p>
-//           <p>Conditions: ${weatherData.condition}</p>
-//           <p>Humidity: ${weatherData.humidity}</p>
-//           <p>Wind Speed: ${weatherData.windSpeed} mph</p>
-//         </div>
-//         <div class="column mx-4">
-//           <p>Feels Like: ${weatherData.feelsLike}°F<img src="${iconUrl}" alt="Weather Icon"></p>
-//         </div>
-//       </div>
-//       `;
-    
-//     weatherDataDiv.append(weatherDataInfo);
-//     modalDetails.append(weatherDataDiv);
-//   }
 
 // On button click get the city value from the input box and call the getWeatherData() function for that city
 searchBtnEl.on('click', function() {
